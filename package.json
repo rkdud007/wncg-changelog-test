@@ -1,0 +1,40 @@
+{
+  "version": "0.2.5",
+  "devDependencies": {
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "ava": "latest",
+    "c8": "latest",
+    "ci-publish": "latest",
+    "conventional-github-releaser": "^3.1.5",
+    "finepack": "latest",
+    "git-authors-cli": "latest",
+    "nano-staged": "latest",
+    "npm-check-updates": "latest",
+    "prettier-standard": "latest",
+    "simple-git-hooks": "latest",
+    "standard": "latest",
+    "standard-markdown": "latest",
+    "standard-version": "latest"
+  },
+  "dependencies": {
+    "npx": "^10.2.2"
+  },
+  "scripts": {
+    "release": "standard-version && node conventionalGithubReleaser"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "simple-git-hooks": {
+    "commit-msg": "npx commitlint --edit",
+    "pre-commit": "npx nano-staged"
+  }
+}
