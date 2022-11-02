@@ -4,7 +4,7 @@ const { deployMockContract } = waffle
 const IBalancerGauge = require('../artifacts/contracts/interfaces/IBalancerGauge.sol/IBalancerGauge.json');
 const IBalancerMinter = require('../artifacts/contracts/interfaces/IBalancerMinter.sol/IBalancerMinter.json');
 
-//hihihihiiiiiddddd
+//hihi
 describe("BasicStakeUnstake", function () {
   let stakingRewardsContract;
   let stakeToken;
