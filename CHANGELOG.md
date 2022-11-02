@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.6 (2022-11-02)
+
+
+### Features
+
+* wefa ([51f6c05](https://github.com/rkdud007/wncg-changelog-test/commit/51f6c05beb08d17e3b31d8e1050774634060a8a2))
+
 ### [0.2.5](https://github.com/rkdud007/wncg-changelog-test/compare/v0.2.4...v0.2.5) (2022-11-02)
 
 
