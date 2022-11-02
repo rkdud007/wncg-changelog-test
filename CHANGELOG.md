@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/rkdud007/wncg-changelog-test/compare/v0.1.1...v0.2.0) (2022-11-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* dddddddd
+
+### Features
+
+* ddddddddd ([09e2de7](https://github.com/rkdud007/wncg-changelog-test/commit/09e2de785bb95cc107c418e3804664121eb23688))
+
 ### [0.1.1](https://github.com/rkdud007/wncg-changelog-test/compare/v0.1.0...v0.1.1) (2022-11-02)
 
 ## [0.1.0](https://github.com/rkdud007/wncg-changelog-test/compare/v0.0.0...v0.1.0) (2022-11-02)
