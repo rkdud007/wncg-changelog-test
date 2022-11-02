@@ -1,5 +1,5 @@
 {
-  "version": "0.2.4",
+  "version": "0.2.5",
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
@@ -21,15 +21,7 @@
     "npx": "^10.2.2"
   },
   "scripts": {
-    "release": "standard-version -a",
-    "test": "c8 ava",
-    "contributors": "(git-authors-cli && finepack && git add package.json && git commit -m 'build: contributors' --no-verify) || true",
-    "postrelease": "npm run release:tags && npm run release:github && (ci-publish || npm publish --access=public)",
-    "prerelease": "npm run update:check && npm run contributors",
-    "release:github": "conventional-github-releaser -p angular",
-    "release:tags": "git push --follow-tags origin HEAD:master",
-    "update:check": "ncu -- --error-level 2",
-    "update": "ncu -u"
+    "release": "standard-version"
   },
   "husky": {
     "hooks": {

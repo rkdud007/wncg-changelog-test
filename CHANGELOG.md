@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.5](https://github.com/rkdud007/wncg-changelog-test/compare/v0.2.4...v0.2.5) (2022-11-02)
+
+
+### Features
+
+* dfsege ([7889a27](https://github.com/rkdud007/wncg-changelog-test/commit/7889a27340fe682b0323a310fad8d31b0a2525c0))
+
 ### [0.2.4](https://github.com/rkdud007/wncg-changelog-test/compare/v0.2.3...v0.2.4) (2022-11-02)
 
 ### [0.2.3](https://github.com/rkdud007/wncg-changelog-test/compare/v0.2.2...v0.2.3) (2022-11-02)
